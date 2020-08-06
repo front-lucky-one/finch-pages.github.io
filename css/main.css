@@ -416,9 +416,28 @@ a:focus{
     margin-bottom:0; }.article1-page .info-block{
   margin-bottom:40px; }.article2-page .section-title{
   max-width:899px; }.article2-page .section-subtitle{
-  max-width:867px; }.spartak-page .wrapp-person{
+  max-width:867px; }.spartak-page .cover{
+  max-width:1200px; }.spartak-page .wrapp-person{
   margin-top:100px; }@media screen and (max-width: 480px){
     .spartak-page .wrapp-person{
+      margin-top:30px; } }.stoloto-page .cover{
+  max-width:1200px; }.stoloto-page .one-img{
+  max-width:645px; }@media screen and (max-width: 480px){
+    .stoloto-page .one-img{
+      max-width:176px; } }.stoloto-page .wrapp-person{
+  margin-top:100px; }@media screen and (max-width: 480px){
+    .stoloto-page .wrapp-person{
+      margin-top:30px; } }.tnt-page .cover{
+  max-width:1200px; }.tnt-page .section-subtitle{
+  max-width:744px; }.tnt-page .list:before{
+  content:'';
+  height:1px;
+  width:10px;
+  background-color:white;
+  top:14px; }.tnt-page .big{
+  max-width:1290px; }.tnt-page .wrapp-person{
+  margin-top:100px; }@media screen and (max-width: 480px){
+    .tnt-page .wrapp-person{
       margin-top:30px; } }.md-show{
   display:none !important; }@media only screen and (max-width: 767px){
   .md-hide{
