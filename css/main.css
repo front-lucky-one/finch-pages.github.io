@@ -208,6 +208,7 @@ a:focus{
   margin:0 auto;
   padding:0 15px; }.section-title{
   font-size:61px;
+  margin:30px 0;
   letter-spacing:-0.98px; }@media screen and (max-width: 768px){
     .section-title{
       font-size:39px; } }@media screen and (max-width: 480px){
@@ -215,7 +216,11 @@ a:focus{
       font-size:32px; } }.section-subtitle{
   max-width:700px;
   color:white;
-  opacity:0.6; }.img{
+  opacity:0.6;
+  margin-bottom:30px;
+  line-height:39px; }@media screen and (max-width: 480px){
+    .section-subtitle{
+      font-size:24px; } }.img{
   width:100%;
   max-width:885px;
   margin-bottom:40px; }.link-in-text{
@@ -234,9 +239,25 @@ a:focus{
       font-size:24px; } }.section-description{
   line-height:31px;
   font-size:20px;
-  font-weight:300; }@media screen and (max-width: 480px){
+  font-weight:300;
+  margin-bottom:20px; }.section-description:last-child{
+    margin-bottom:0; }@media screen and (max-width: 480px){
     .section-description{
-      font-size:18px; } }.wrapp-person{
+      font-size:18px; } }.list{
+  position:relative;
+  padding-left:30px; }.list:before{
+    position:absolute;
+    display:block;
+    content:'';
+    width:20px;
+    height:20px;
+    left:0;
+    top:3px;
+    background-image:url("../images/star.svg");
+    background-repeat:no-repeat;
+    background-size:contain;
+    background-position:center; }.info-block{
+  margin-bottom:40px; }.wrapp-person{
   max-width:885px;
   margin-bottom:30px; }.person-img{
   width:100%;
@@ -375,7 +396,16 @@ a:focus{
       -webkit-transform:rotateX(180deg);
       transform:rotateX(180deg); }.menu.bottomRight{
     bottom:30px;
-    right:30px; }.article1-page .section-title{
+    right:30px; }.img-grid-block{
+  display:-webkit-box;
+  display:flex;
+  -webkit-box-pack:center;
+  justify-content:center;
+  margin-bottom:40px; }.one-img{
+  max-width:455px; }@media screen and (max-width: 480px){
+    .one-img{
+      max-width:176px; } }.images{
+  width:100%; }.article1-page .section-title{
   max-width:860px;
   margin:30px 0; }.article1-page .section-subtitle{
   font-size:30px;
@@ -385,16 +415,11 @@ a:focus{
   margin-bottom:20px; }.article1-page .section-description:last-child{
     margin-bottom:0; }.article1-page .info-block{
   margin-bottom:40px; }.article2-page .section-title{
-  max-width:899px;
-  margin:30px 0; }.article2-page .section-subtitle{
-  max-width:867px;
-  margin-bottom:30px;
-  line-height:39px; }@media screen and (max-width: 480px){
-    .article2-page .section-subtitle{
-      font-size:24px; } }.article2-page .section-description{
-  margin-bottom:20px; }.article2-page .section-description:last-child{
-    margin-bottom:0; }.article2-page .info-block{
-  margin-bottom:40px; }.md-show{
+  max-width:899px; }.article2-page .section-subtitle{
+  max-width:867px; }.spartak-page .wrapp-person{
+  margin-top:100px; }@media screen and (max-width: 480px){
+    .spartak-page .wrapp-person{
+      margin-top:30px; } }.md-show{
   display:none !important; }@media only screen and (max-width: 767px){
   .md-hide{
     display:none !important; }
